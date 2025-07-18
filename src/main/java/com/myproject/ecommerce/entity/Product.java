@@ -8,13 +8,6 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import jakarta.persistence.*;
 
-// import jakarta.persistence.Entity;
-// import jakarta.persistence.Column;
-// import jakarta.persistence.GeneratedValue;
-// import jakarta.persistence.GenerationType;
-// import jakarta.persistence.Id;
-// import jakarta.persistence.Table;
-
 import lombok.Data;
 
 @Entity
@@ -46,7 +39,7 @@ public class Product {
     @Column(name = "image_url")
     private String imageUrl;
 
-    @Column(name = "acitve")
+    @Column(name = "active")
     private boolean active;
 
     @Column(name = "units_in_stock")
